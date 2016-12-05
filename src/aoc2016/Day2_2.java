@@ -92,22 +92,6 @@ public class Day2_2 {
 						}
 						break;
 				}
-				if(x==0){
-					System.out.println("1");
-				}
-				else if(x==1){
-					System.out.println(y+1);
-				}
-				else if(x==2){
-					System.out.println(y+5);
-				}
-				else if(x==3){
-					char c=(char) ((char)'A'+y-1);
-					System.out.println(c);
-				}
-				else{
-					System.out.println("D");
-				}
 			}
 			if(x==0){
 				code+="1";
@@ -124,7 +108,7 @@ public class Day2_2 {
 			}
 			else{
 				code+="D";
-			}System.out.println("");
+			}
 			//System.out.println(code);
 		}
 		System.out.println(code);
